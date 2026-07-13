@@ -23,7 +23,23 @@ print("Index of 5 in lst1:", index_of_5)
 count_of_4= lst1.count(4)
 print("Count of 4 in lst1:", count_of_4)
 
-print(lst1)
-print(first_el)
-print(reverse_lst)
+#  len() function to know the length of the list
+length_of_lst1= len(lst1)
+print("Length of lst1:", length_of_lst1)
+
+# sum() function to get the sum of elements in the list
+sum_of_lst1= sum(lst1)
+print("Sum of elements in lst1:", sum_of_lst1)
+
+# clear() function to remove all elements from the list
+# lst1.clear()
+
+# sort() function to sort the list in ascending order
+lst1.sort()
+print("Sorted lst1:", lst1)
+
+
+# print(lst1)
+# print(first_el)
+# print(reverse_lst)
    
