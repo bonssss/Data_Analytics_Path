@@ -17,7 +17,7 @@ RUN uv sync --locked --no-install-project
 # COPY pipeline.py /app/pipeline.py
 
 # copy application code
-COPY pipeline.py /app/pipeline.py
+COPY ingest_data.py /app/ingest_data.py
 
 # run pipeline
-ENTRYPOINT ["python", "pipeline.py"]
+ENTRYPOINT ["python", "ingest_data.py"]
